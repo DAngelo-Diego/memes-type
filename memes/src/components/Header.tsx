@@ -6,7 +6,7 @@ const Header = () => {
       <img
         src="../../public/img/logo.png"
         className="header--image"
-        alt="logo"
+        alt="page-logo"
       />
       <h2 className="header--title">Memes Generator</h2>
       <h4 className="header--project">Created by: "D'Angelo Diego"</h4>

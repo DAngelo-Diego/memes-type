@@ -16,14 +16,15 @@ main {
 .form--button {
   grid-column: 1 / -1;
   font-family: "Karla", sans-serif;
-  color: rgb(121, 121, 121);
+  color: rgb(255, 255, 255);
+  background-color: rgb(68, 163, 68);
   border: none;
   cursor: pointer;
   transition: all 100ms ease;
 }
 
 .form--button:hover {
-  background-color: #d5d4d89e;
+  background-color: rgba(45, 149, 45, 0.958);
 }
 
 .form--input {
@@ -31,6 +32,7 @@ main {
   border-radius: 5px;
   border: 1px solid #d5d4d8;
   text-indent: 5px;
+  outline: none;
 }
 
 /*texts */
